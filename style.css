@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'montserrat', sans-serif;
+}
+
+h2{
+    font-size: 3rem;
+    padding: 3rem;
+}
+
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+} 
+
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.day, .hour, .minute, .second{
+    font-size: 1.8rem;
+}
+
+.waiting{
+    height: 50vh;
+}
+
